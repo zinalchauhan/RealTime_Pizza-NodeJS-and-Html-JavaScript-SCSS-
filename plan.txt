@@ -1,0 +1,69 @@
+Topic :- Realtime pizza order tracker app
+
+In this project we will build a realtime online pizza order app using Node Js, Express Js and Mongo DB. 
+we will be using tailwind css for frontend as a css framework and will be using EJS template engine as well. 
+we will be using socket.io for realtime communication.
+Using This app we will be able to order a pizza and get realtime notifications about pizza status. 
+In this Project we will cover following topics: 
+
+1. Login system
+  - Cookies and sessions
+    - Use Database as session store 
+2. Registration 
+3. User roles
+4. Shopping cart 
+5. Realtime pizza status tracker 
+    - Real time web socket private connections
+6. Git 
+7. ES6 and SCSS
+8. Express project unique architecture 
+and many other things.
+
+Steps :-
+
+- Create directory structure
+- Create a NPM project and install all dependencies
+    - Dependencies
+        - Express
+        - ejs express-ejs-layouts
+    - Dev dependencies
+        - Nodemon
+- Create Express server - Create server.js file
+- Git setup and first commit
+- Install Laravel Mix
+    - setup js and scss
+- Install tailwind css
+- Create Home page using HTML and CSS
+- Create cart page
+    - order summary section
+    - empty cart section
+    - move routes to routes file
+    - Create dedicated controllers
+- Add to cart functionality
+    - fetch all pizzas from db and show on home page
+    - Create menu model and put dummy Data
+        - connect to mongo db
+        - use connect-mongo for session store
+            - dependencies
+                - mongoose , express-session , connect-mongo . dotenv
+    - axios to send ajax request
+    - install notifications library npm i noty  https://ned.im/noty/#/
+- Create Login page with route
+- Create Register page with route
+- Build Register crud
+    - dependencies express-flash-express-session Cookie-parser dotenv
+    - status code article    https://www.restapitutoria;.com/httpstatuscodes.html
+- Build Login using passport
+    - install dependencies passport passport-local express-session
+- Create order controller and link it in server.js
+- Create orders view with table for customer and admin
+- Place order functionality
+- Create orders single page with status
+- Show all my orders on customer order page
+- Show orders on admin orders page 
+- order tracker
+    - dependencies moment
+- Socket connection
+    - dependencies socket.io
+- Build project for deployment
+- Deploy project on live server
